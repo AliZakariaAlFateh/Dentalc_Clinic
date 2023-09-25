@@ -1,4 +1,4 @@
-﻿namespace DashBoard.Forms_Content
+﻿namespace DashBoard.Forms_Content_Doctor
 {
     partial class Appointment
     {

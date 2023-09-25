@@ -53,16 +53,34 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms_Content\Patient.cs">
+    <Compile Include="Forms_Content _Doctor\Appointment.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms_Content\Patient.Designer.cs">
+    <Compile Include="Forms_Content _Doctor\Appointment.Designer.cs">
+      <DependentUpon>Appointment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms_Content _Doctor\Diagnosis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_Content _Doctor\Diagnosis.Designer.cs">
+      <DependentUpon>Diagnosis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms_Content _Doctor\Patient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_Content _Doctor\Patient.Designer.cs">
       <DependentUpon>Patient.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms_Content\Appointment.cs">
+    <Compile Include="Forms_Content_Receptionist\Patient.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms_Content\Appointment.Designer.cs">
+    <Compile Include="Forms_Content_Receptionist\Patient.Designer.cs">
+      <DependentUpon>Patient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms_Content_Receptionist\Appointment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms_Content_Receptionist\Appointment.Designer.cs">
       <DependentUpon>Appointment.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
@@ -70,10 +88,19 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms_Content\Patient.resx">
+    <EmbeddedResource Include="Forms_Content _Doctor\Appointment.resx">
+      <DependentUpon>Appointment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms_Content _Doctor\Diagnosis.resx">
+      <DependentUpon>Diagnosis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms_Content _Doctor\Patient.resx">
       <DependentUpon>Patient.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms_Content\Appointment.resx">
+    <EmbeddedResource Include="Forms_Content_Receptionist\Patient.resx">
+      <DependentUpon>Patient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms_Content_Receptionist\Appointment.resx">
       <DependentUpon>Appointment.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
