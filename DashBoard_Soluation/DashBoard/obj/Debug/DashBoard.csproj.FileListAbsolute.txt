@@ -53,3 +53,8 @@ D:\Dentalc_Clinic\DashBoard_Soluation\DashBoard\obj\Debug\DashBoard.csproj.CoreC
 D:\Dentalc_Clinic\DashBoard_Soluation\DashBoard\obj\Debug\DashBoard.exe
 D:\Dentalc_Clinic\DashBoard_Soluation\DashBoard\obj\Debug\DashBoard.pdb
 >>>>>>> 7734afa06553502488bac2e29a1a0553a724c700
+D:\Dentalc_Clinic\DashBoard_Soluation\DashBoard\obj\Debug\DashBoard.Forms_Content_Doctor.Appointment.resources
+D:\Dentalc_Clinic\DashBoard_Soluation\DashBoard\obj\Debug\DashBoard.Forms_Content_Doctor.Diagnosis.resources
+D:\Dentalc_Clinic\DashBoard_Soluation\DashBoard\obj\Debug\DashBoard.Forms_Content_Doctor.Patient.resources
+D:\Dentalc_Clinic\DashBoard_Soluation\DashBoard\obj\Debug\DashBoard.Forms_Content_Receptionist.Patient.resources
+D:\Dentalc_Clinic\DashBoard_Soluation\DashBoard\obj\Debug\DashBoard.Forms_Content_Receptionist.Appointment.resources

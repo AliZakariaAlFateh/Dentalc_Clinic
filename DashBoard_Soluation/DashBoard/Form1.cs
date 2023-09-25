@@ -58,7 +58,7 @@ namespace DashBoard
             if (FormPatient == 0)
             {
                 FormPatient = 1;
-                OpenChildForm(new Forms_Content_Receptionist.Patient(), sender);
+                //OpenChildForm(new Forms_Content_Receptionist.Patient(), sender);
             }
         }
 

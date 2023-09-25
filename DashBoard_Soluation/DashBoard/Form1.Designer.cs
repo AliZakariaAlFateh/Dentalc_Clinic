@@ -30,7 +30,7 @@
         {
             this.PanelMenue = new System.Windows.Forms.Panel();
             this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.BtnPatient = new System.Windows.Forms.Button();
             this.PanelLogo = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -47,7 +47,7 @@
             // 
             this.PanelMenue.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(187)))));
             this.PanelMenue.Controls.Add(this.button2);
-            this.PanelMenue.Controls.Add(this.button1);
+            this.PanelMenue.Controls.Add(this.button2);
             this.PanelMenue.Controls.Add(this.BtnPatient);
             this.PanelMenue.Controls.Add(this.PanelLogo);
             this.PanelMenue.Dock = System.Windows.Forms.DockStyle.Left;
@@ -73,7 +73,7 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.Diagnosis_Click);
             // 
-            // button1
+            // btnAddPatient
             // 
             this.button1.Dock = System.Windows.Forms.DockStyle.Top;
             this.button1.FlatAppearance.BorderSize = 0;
