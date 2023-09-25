@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace DashBoard.Forms_Content
+namespace DashBoard.Forms_Content_Doctor
 {
-    public partial class Appointment : Form
+    public partial class Patient : Form
     {
-        public Appointment()
+        public Patient()
         {
             InitializeComponent();
         }
@@ -28,11 +28,6 @@ namespace DashBoard.Forms_Content
             };
 
             dataGridView1.DataSource = Appointment_List;
-        }
-
-        private void textBox3_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

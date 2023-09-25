@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.PanelMenue = new System.Windows.Forms.Panel();
             this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.BtnPatient = new System.Windows.Forms.Button();
             this.PanelLogo = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -54,7 +54,7 @@
             // 
             this.PanelMenue.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(187)))));
             this.PanelMenue.Controls.Add(this.button2);
-            this.PanelMenue.Controls.Add(this.button1);
+            this.PanelMenue.Controls.Add(this.button2);
             this.PanelMenue.Controls.Add(this.BtnPatient);
             this.PanelMenue.Controls.Add(this.PanelLogo);
             this.PanelMenue.Dock = System.Windows.Forms.DockStyle.Left;
@@ -77,11 +77,12 @@
             this.button2.Padding = new System.Windows.Forms.Padding(8, 0, 0, 0);
             this.button2.Size = new System.Drawing.Size(165, 49);
             this.button2.TabIndex = 3;
-            this.button2.Text = "    Patient";
+            this.button2.Text = "Diagnosis";
             this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.Diagnosis_Click);
             // 
-            // button1
+            // btnAddPatient
             // 
             this.button1.Dock = System.Windows.Forms.DockStyle.Top;
             this.button1.FlatAppearance.BorderSize = 0;
@@ -97,7 +98,7 @@
             this.button1.Text = "    Appointment";
             this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.Appointment_Click);
             // 
             // BtnPatient
             // 
@@ -159,8 +160,12 @@
             this.label1_title.AutoSize = true;
             this.label1_title.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1_title.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+<<<<<<< HEAD
             this.label1_title.Location = new System.Drawing.Point(371, 3);
             this.label1_title.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+=======
+            this.label1_title.Location = new System.Drawing.Point(496, 31);
+>>>>>>> 29400a7bdb6f5bb172109182d96ca37daf3c8162
             this.label1_title.Name = "label1_title";
             this.label1_title.Size = new System.Drawing.Size(62, 24);
             this.label1_title.TabIndex = 0;

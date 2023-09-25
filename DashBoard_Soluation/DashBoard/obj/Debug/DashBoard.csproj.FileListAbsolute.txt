@@ -22,6 +22,7 @@ D:\ClinicApps_WindowFormApp\DashBoard_Soluation\DashBoard\obj\Debug\DashBoard.cs
 D:\ClinicApps_WindowFormApp\DashBoard_Soluation\DashBoard\obj\Debug\DashBoard.csproj.CoreCompileInputs.cache
 D:\ClinicApps_WindowFormApp\DashBoard_Soluation\DashBoard\obj\Debug\DashBoard.exe
 D:\ClinicApps_WindowFormApp\DashBoard_Soluation\DashBoard\obj\Debug\DashBoard.pdb
+<<<<<<< HEAD
 F:\Education\C sharp\CSharpSoluations\Forms_Designs\Dental repo\DashBoard_Soluation\DashBoard\bin\Debug\DashBoard.exe.config
 F:\Education\C sharp\CSharpSoluations\Forms_Designs\Dental repo\DashBoard_Soluation\DashBoard\bin\Debug\DashBoard.exe
 F:\Education\C sharp\CSharpSoluations\Forms_Designs\Dental repo\DashBoard_Soluation\DashBoard\bin\Debug\DashBoard.pdb
@@ -34,3 +35,41 @@ F:\Education\C sharp\CSharpSoluations\Forms_Designs\Dental repo\DashBoard_Soluat
 F:\Education\C sharp\CSharpSoluations\Forms_Designs\Dental repo\DashBoard_Soluation\DashBoard\obj\Debug\DashBoard.csproj.CoreCompileInputs.cache
 F:\Education\C sharp\CSharpSoluations\Forms_Designs\Dental repo\DashBoard_Soluation\DashBoard\obj\Debug\DashBoard.exe
 F:\Education\C sharp\CSharpSoluations\Forms_Designs\Dental repo\DashBoard_Soluation\DashBoard\obj\Debug\DashBoard.pdb
+=======
+<<<<<<< HEAD
+D:\ClinicApps_WindowFormApp\Dentalc_Clinic\DashBoard_Soluation\DashBoard\bin\Debug\DashBoard.exe.config
+D:\ClinicApps_WindowFormApp\Dentalc_Clinic\DashBoard_Soluation\DashBoard\bin\Debug\DashBoard.exe
+D:\ClinicApps_WindowFormApp\Dentalc_Clinic\DashBoard_Soluation\DashBoard\bin\Debug\DashBoard.pdb
+D:\ClinicApps_WindowFormApp\Dentalc_Clinic\DashBoard_Soluation\DashBoard\obj\Debug\DashBoard.csproj.AssemblyReference.cache
+D:\ClinicApps_WindowFormApp\Dentalc_Clinic\DashBoard_Soluation\DashBoard\obj\Debug\DashBoard.Form1.resources
+D:\ClinicApps_WindowFormApp\Dentalc_Clinic\DashBoard_Soluation\DashBoard\obj\Debug\DashBoard.Forms_Content_Doctor.Appointment.resources
+D:\ClinicApps_WindowFormApp\Dentalc_Clinic\DashBoard_Soluation\DashBoard\obj\Debug\DashBoard.Forms_Content_Doctor.Diagnosis.resources
+D:\ClinicApps_WindowFormApp\Dentalc_Clinic\DashBoard_Soluation\DashBoard\obj\Debug\DashBoard.Forms_Content_Doctor.Patient.resources
+D:\ClinicApps_WindowFormApp\Dentalc_Clinic\DashBoard_Soluation\DashBoard\obj\Debug\DashBoard.Properties.Resources.resources
+D:\ClinicApps_WindowFormApp\Dentalc_Clinic\DashBoard_Soluation\DashBoard\obj\Debug\DashBoard.csproj.GenerateResource.cache
+D:\ClinicApps_WindowFormApp\Dentalc_Clinic\DashBoard_Soluation\DashBoard\obj\Debug\DashBoard.csproj.CoreCompileInputs.cache
+D:\ClinicApps_WindowFormApp\Dentalc_Clinic\DashBoard_Soluation\DashBoard\obj\Debug\DashBoard.exe
+D:\ClinicApps_WindowFormApp\Dentalc_Clinic\DashBoard_Soluation\DashBoard\obj\Debug\DashBoard.pdb
+D:\ClinicApps_WindowFormApp\Dentalc_Clinic\DashBoard_Soluation\DashBoard\obj\Debug\DashBoard.Forms_Content_Receptionist.Patient.resources
+D:\ClinicApps_WindowFormApp\Dentalc_Clinic\DashBoard_Soluation\DashBoard\obj\Debug\DashBoard.Forms_Content_Receptionist.Appointment.resources
+=======
+D:\Dentalc_Clinic\DashBoard_Soluation\DashBoard\bin\Debug\DashBoard.exe.config
+D:\Dentalc_Clinic\DashBoard_Soluation\DashBoard\bin\Debug\DashBoard.exe
+D:\Dentalc_Clinic\DashBoard_Soluation\DashBoard\bin\Debug\DashBoard.pdb
+D:\Dentalc_Clinic\DashBoard_Soluation\DashBoard\obj\Debug\DashBoard.csproj.AssemblyReference.cache
+D:\Dentalc_Clinic\DashBoard_Soluation\DashBoard\obj\Debug\DashBoard.csproj.SuggestedBindingRedirects.cache
+D:\Dentalc_Clinic\DashBoard_Soluation\DashBoard\obj\Debug\DashBoard.Form1.resources
+D:\Dentalc_Clinic\DashBoard_Soluation\DashBoard\obj\Debug\DashBoard.Forms_Content.Patient.resources
+D:\Dentalc_Clinic\DashBoard_Soluation\DashBoard\obj\Debug\DashBoard.Forms_Content.Appointment.resources
+D:\Dentalc_Clinic\DashBoard_Soluation\DashBoard\obj\Debug\DashBoard.Properties.Resources.resources
+D:\Dentalc_Clinic\DashBoard_Soluation\DashBoard\obj\Debug\DashBoard.csproj.GenerateResource.cache
+D:\Dentalc_Clinic\DashBoard_Soluation\DashBoard\obj\Debug\DashBoard.csproj.CoreCompileInputs.cache
+D:\Dentalc_Clinic\DashBoard_Soluation\DashBoard\obj\Debug\DashBoard.exe
+D:\Dentalc_Clinic\DashBoard_Soluation\DashBoard\obj\Debug\DashBoard.pdb
+>>>>>>> 7734afa06553502488bac2e29a1a0553a724c700
+D:\Dentalc_Clinic\DashBoard_Soluation\DashBoard\obj\Debug\DashBoard.Forms_Content_Doctor.Appointment.resources
+D:\Dentalc_Clinic\DashBoard_Soluation\DashBoard\obj\Debug\DashBoard.Forms_Content_Doctor.Diagnosis.resources
+D:\Dentalc_Clinic\DashBoard_Soluation\DashBoard\obj\Debug\DashBoard.Forms_Content_Doctor.Patient.resources
+D:\Dentalc_Clinic\DashBoard_Soluation\DashBoard\obj\Debug\DashBoard.Forms_Content_Receptionist.Patient.resources
+D:\Dentalc_Clinic\DashBoard_Soluation\DashBoard\obj\Debug\DashBoard.Forms_Content_Receptionist.Appointment.resources
+>>>>>>> 29400a7bdb6f5bb172109182d96ca37daf3c8162

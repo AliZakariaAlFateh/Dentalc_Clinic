@@ -16,6 +16,7 @@ namespace DashBoard
     {
         int FormAppointment = 0;
         int FormPatient = 0;
+        int FormDiagnosis = 0;
         private Form activeForm;
 
         #region Form Move
@@ -46,25 +47,30 @@ namespace DashBoard
             label1_title.Text = childForm.Text;
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        //Appointment
+        private void Appointment_Click(object sender, EventArgs e)
         {
             FormPatient = 0;
+            FormDiagnosis = 0;
             if (FormAppointment == 0) {
                 FormAppointment = 1;
-                OpenChildForm(new Forms_Content.Appointment(), sender);
+                OpenChildForm(new Forms_Content_Receptionist.Appointment(), sender);
             }
         }
 
+        //Patient
         private void BtnPatient_Click(object sender, EventArgs e)
         {
             FormAppointment = 0;
+            FormDiagnosis = 0;
             if (FormPatient == 0)
             {
                 FormPatient = 1;
-                OpenChildForm(new Forms_Content.Patient(), sender);
+                //OpenChildForm(new Forms_Content_Receptionist.Patient(), sender);
             }
         }
 
+<<<<<<< HEAD
         private void btnClose_Click(object sender, EventArgs e)
         {
             Application.Exit();
@@ -94,6 +100,29 @@ namespace DashBoard
         {
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
+=======
+        //Diagnosis
+        private void Diagnosis_Click(object sender, EventArgs e)
+        {
+            FormPatient = 0;
+            FormAppointment = 0;
+            if (FormDiagnosis == 0)
+            {
+                FormDiagnosis = 1;
+                OpenChildForm(new Forms_Content_Doctor.Diagnosis(), sender);
+            }
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+>>>>>>> 29400a7bdb6f5bb172109182d96ca37daf3c8162
         }
     }
 }
