@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Reflection.Emit;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -16,6 +17,13 @@ namespace DashBoard
         int FormAppointment = 0;
         int FormPatient = 0;
         private Form activeForm;
+
+        #region Form Move
+        [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
+        private extern static void ReleaseCapture();
+        [DllImport("user32.DLL", EntryPoint = "SendMessage")]
+        private extern static void SendMessage(System.IntPtr hand, int wmsg, int wparam, int lparam); 
+        #endregion
         public Form1()
         {
             InitializeComponent();
@@ -55,6 +63,37 @@ namespace DashBoard
                 FormPatient = 1;
                 OpenChildForm(new Forms_Content.Patient(), sender);
             }
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnMaximize_Click(object sender, EventArgs e)
+        {
+            if (this.WindowState == FormWindowState.Maximized)
+            {
+                this.WindowState = FormWindowState.Normal;
+            }
+            else
+            {
+                Rectangle rect = Screen.FromHandle(this.Handle).WorkingArea;
+                rect.Location = new Point(0, 0);
+                this.MaximizedBounds = rect;
+                this.WindowState = FormWindowState.Maximized;
+            }
+        }
+
+        private void btnMinimize_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void PanelTitlBar_MouseDown(object sender, MouseEventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
     }
 }

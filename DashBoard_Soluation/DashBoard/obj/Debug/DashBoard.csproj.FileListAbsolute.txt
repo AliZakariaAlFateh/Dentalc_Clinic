@@ -22,3 +22,15 @@ D:\ClinicApps_WindowFormApp\DashBoard_Soluation\DashBoard\obj\Debug\DashBoard.cs
 D:\ClinicApps_WindowFormApp\DashBoard_Soluation\DashBoard\obj\Debug\DashBoard.csproj.CoreCompileInputs.cache
 D:\ClinicApps_WindowFormApp\DashBoard_Soluation\DashBoard\obj\Debug\DashBoard.exe
 D:\ClinicApps_WindowFormApp\DashBoard_Soluation\DashBoard\obj\Debug\DashBoard.pdb
+F:\Education\C sharp\CSharpSoluations\Forms_Designs\Dental repo\DashBoard_Soluation\DashBoard\bin\Debug\DashBoard.exe.config
+F:\Education\C sharp\CSharpSoluations\Forms_Designs\Dental repo\DashBoard_Soluation\DashBoard\bin\Debug\DashBoard.exe
+F:\Education\C sharp\CSharpSoluations\Forms_Designs\Dental repo\DashBoard_Soluation\DashBoard\bin\Debug\DashBoard.pdb
+F:\Education\C sharp\CSharpSoluations\Forms_Designs\Dental repo\DashBoard_Soluation\DashBoard\obj\Debug\DashBoard.csproj.AssemblyReference.cache
+F:\Education\C sharp\CSharpSoluations\Forms_Designs\Dental repo\DashBoard_Soluation\DashBoard\obj\Debug\DashBoard.Form1.resources
+F:\Education\C sharp\CSharpSoluations\Forms_Designs\Dental repo\DashBoard_Soluation\DashBoard\obj\Debug\DashBoard.Forms_Content.Patient.resources
+F:\Education\C sharp\CSharpSoluations\Forms_Designs\Dental repo\DashBoard_Soluation\DashBoard\obj\Debug\DashBoard.Forms_Content.Appointment.resources
+F:\Education\C sharp\CSharpSoluations\Forms_Designs\Dental repo\DashBoard_Soluation\DashBoard\obj\Debug\DashBoard.Properties.Resources.resources
+F:\Education\C sharp\CSharpSoluations\Forms_Designs\Dental repo\DashBoard_Soluation\DashBoard\obj\Debug\DashBoard.csproj.GenerateResource.cache
+F:\Education\C sharp\CSharpSoluations\Forms_Designs\Dental repo\DashBoard_Soluation\DashBoard\obj\Debug\DashBoard.csproj.CoreCompileInputs.cache
+F:\Education\C sharp\CSharpSoluations\Forms_Designs\Dental repo\DashBoard_Soluation\DashBoard\obj\Debug\DashBoard.exe
+F:\Education\C sharp\CSharpSoluations\Forms_Designs\Dental repo\DashBoard_Soluation\DashBoard\obj\Debug\DashBoard.pdb
